@@ -1,0 +1,103 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+
+    /*  PER CENTRARE IN MEZZO ALLA PAGINA  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* /////////////////// */
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+
+
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(Manrope-VariableFont_wght.ttf);
+}
+
+
+@media (max-width: 767px) {
+    .card {
+        background-color: hsl(217, 19%, 24%);
+    
+        /*  PER CENTRARE IN MEZZO ALLA PAGINA  */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* /////////////////// */
+    
+        width: 90%;
+        border-radius: 15px;
+    
+    }
+
+    .divisore{
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+@media (min-width: 768px){
+    .card {
+        background-color: hsl(217, 19%, 24%);
+    
+        /*  PER CENTRARE IN MEZZO ALLA PAGINA  */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* /////////////////// */
+    
+        width: 34rem;
+        padding: 2rem;
+        border-radius: 15px;
+    
+    }
+
+    .divisore{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+
+h5 {
+    color: hsl(150, 100%, 66%);
+    font-size: small;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    box-shadow: 0 0 50px hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%) !important;
+}
+
+.dado {
+    background-color: transparent;
+    color: hsl(218, 23%, 16%);
+}
